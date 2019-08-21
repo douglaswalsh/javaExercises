@@ -1,9 +1,6 @@
 package codingBatPractice;
 
 public class Hamming {
-
-    private char[] leftStrandArray;
-    private char[] rightStrandArray;
     private int difference = 0;
   
   Hamming(String leftStrand, String rightStrand) {
@@ -17,13 +14,9 @@ public class Hamming {
         if (leftStrand.length() != rightStrand.length()){
           throw new IllegalArgumentException("leftStrand and rightStrand must be of equal length.");
         }
-        
-       leftStrandArray = leftStrand.toCharArray();
-       rightStrandArray = rightStrand.toCharArray();
        
-       
-       for (int i = 0; i < leftStrandArray.length;i++){
-         if (leftStrandArray[i] != rightStrandArray[i]){
+       for (int i = 0; i < leftStrand.length();i++){
+         if (leftStrand.charAt(i) != rightStrand.charAt(i)){
            difference ++;
          }
        }
