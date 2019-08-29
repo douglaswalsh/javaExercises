@@ -9,8 +9,9 @@ import java.util.Date;
 public class CodingBat {
 
 	public static void main(String[] args) {
-		Acronym a = new Acronym("Halley's Comet");
-		System.out.println(a.get());
+		Scrabble s = new Scrabble("OxyphenButazone");
+		System.out.println(s.getScore());
+		System.out.println(s.ScoresMap.get('a'));
 		
 		/*dates stuff 
 		 * long Gigasecond = (long) Math.pow(10, 9);
