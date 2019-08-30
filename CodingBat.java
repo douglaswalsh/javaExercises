@@ -9,9 +9,10 @@ import java.util.Date;
 public class CodingBat {
 
 	public static void main(String[] args) {
-		Scrabble s = new Scrabble("OxyphenButazone");
-		System.out.println(s.getScore());
-		System.out.println(s.ScoresMap.get('a'));
+		DifferenceOfSquaresCalculator d = new DifferenceOfSquaresCalculator();
+		System.out.println(d.computeSquareOfSumTo(5));
+		//System.out.println(d.computeSumOfSquaresTo(10));
+		//System.out.println(d.computeDifferenceOfSquares(5));
 		
 		/*dates stuff 
 		 * long Gigasecond = (long) Math.pow(10, 9);
