@@ -9,8 +9,10 @@ import java.util.Date;
 public class CodingBat {
 
 	public static void main(String[] args) {
-		DifferenceOfSquaresCalculator d = new DifferenceOfSquaresCalculator();
-		System.out.println(d.computeSquareOfSumTo(5));
+		NaturalNumber n = new NaturalNumber(28);
+		System.out.println(n.getClassification());
+		
+		
 		//System.out.println(d.computeSumOfSquaresTo(10));
 		//System.out.println(d.computeDifferenceOfSquares(5));
 		
