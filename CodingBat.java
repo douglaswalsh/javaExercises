@@ -9,8 +9,8 @@ import java.util.Date;
 public class CodingBat {
 
 	public static void main(String[] args) {
-		NaturalNumber n = new NaturalNumber(28);
-		System.out.println(n.getClassification());
+		Yacht yacht = new Yacht(new int[]{ 5, 5, 5, 5, 5 }, YachtCategory.YACHT);
+		System.out.println(yacht.score());
 		
 		
 		//System.out.println(d.computeSumOfSquaresTo(10));
